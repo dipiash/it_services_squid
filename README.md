@@ -1,3 +1,5 @@
+Mini presentation about caching proxy server squid3
+
 1. Create instance (Ubuntu) (example: Vscale)
 2. Connect via ssh
 3. sudo apt-get update
@@ -6,6 +8,9 @@
 6. sudo cp squid.conf squid.conf.backup
 7. sudo nano squid.conf
 8. Add to top
+
+Example configuration
+
 ```
 # Set network adress and port for Squid
 http_port 3128 
